@@ -1,0 +1,17 @@
+{
+	"name": "express-crash",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "nodemon --env-file=.env server.js",
+		"devStart": "node --watch server.js"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.7"
+	},
+	"dependencies": {
+		"colors": "^1.4.0",
+		"express": "^4.21.1"
+	}
+}
